@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI SEO Bot - Boost Your YouTube Video Ranking">
+    <meta name="keywords" content="AI SEO, YouTube SEO, Viral Video Booster">
+    <meta name="author" content="Your Name">
+    <title>AI SEO Bot - Viral Booster</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 AI SEO Bot - Viral YouTube Booster</h1>
+        <p>Paste your YouTube Video Link & Let AI Optimize it!</p>
+
+        <input type="text" id="videoUrl" placeholder="Enter YouTube Video URL">
+        <button onclick="analyzeVideo()">🔍 Optimize Now</button>
+
+        <div id="videoContainer"></div>
+
+        <h2>📊 Real-Time YouTube Analytics</h2>
+        <p><strong>Views:</strong> <span id="viewsCount">Loading...</span></p>
+        <p><strong>Likes:</strong> <span id="likesCount">Loading...</span></p>
+        <p><strong>Comments:</strong> <span id="commentsCount">Loading...</span></p>
+
+        <h2>📝 AI Auto Title & Description</h2>
+        <p><strong>Title:</strong> <span id="seoTitle">Generating...</span></p>
+        <p><strong>Description:</strong> <span id="seoDescription">Generating...</span></p>
+
+        <h2>🔥 Trending Hashtags</h2>
+        <button onclick="getHashtags()">Generate Hashtags</button>
+        <p id="hashtagList">#Loading...</p>
+
+        <h2>🔗 Auto Backlink & Google Indexing</h2>
+        <button onclick="generateBacklinks()">Generate Backlinks</button>
+        <p id="backlinkStatus"></p>
+
+        <h2>💬 AI Auto Comment Bot</h2>
+        <button onclick="postComment()">Post AI Comment</button>
+        <p id="commentStatus"></p>
+
+        <h2>📣 Auto Share on Social Media</h2>
+        <button onclick="autoShare()">Auto Share Now</button>
+        <p id="shareStatus"></p>
+
+        <h2>🖼️ AI Auto Thumbnail Generator</h2>
+        <button onclick="generateThumbnail()">Generate Thumbnail</button>
+        <img id="thumbnailPreview" src="" alt="Generated Thumbnail" style="display:none; width:100%;">
+
+        <h2>💰 Monetization (Affiliate & Ads)</h2>
+        <div class="ad-container">
+            <p>🔵 Your Ad Here - Earn Money with Ads!</p>
+            <a href="https://www.your-affiliate-link.com" target="_blank">🔥 Get 10x More Views!</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
